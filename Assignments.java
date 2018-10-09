@@ -34,10 +34,9 @@ import java.util.List;
 import cn.pedant.SweetAlert.SweetAlertDialog;
 
 public class Assignments extends Fragment {
-    private static final String URL_PRODUCTS = "https://raushankumar8338.000webhostapp.com/store/Messages/Api.php";
+    private static final String URL_PRODUCTS = "https://raushankumar8338.000webhostapp.com/store/Messages/Api2.php";
     List<AssignmentsProduct> assignments;
     AsyncHttpClient asyncHttpClient = new AsyncHttpClient();
-
 
     RecyclerView recyclerView;
     private final Handler handler = new Handler();

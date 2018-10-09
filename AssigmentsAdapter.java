@@ -12,6 +12,9 @@ import android.widget.TextView;
 
 import java.util.List;
 
+import com.ample.ample.nps.Actvity.Announcement;
+import com.ample.ample.nps.Actvity.Assignment;
+import com.ample.ample.nps.Actvity.AttendanceActivity;
 import com.ample.ample.nps.R;
 import com.ample.ample.nps.Message;
 
@@ -43,7 +46,7 @@ public class AssigmentsAdapter extends RecyclerView.Adapter<AssigmentsAdapter.Pr
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(mCtx, Message.class);
+                Intent intent = new Intent(mCtx, Assignment.class);
                 intent.putExtra("message",assigmentsAdapter.getmessage());
                 mCtx.startActivity(intent);
             }
