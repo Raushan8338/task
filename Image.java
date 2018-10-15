@@ -32,7 +32,7 @@ import cn.pedant.SweetAlert.SweetAlertDialog;
 import cz.msebera.android.httpclient.Header;
 
 public class Image extends Fragment {
-    private static final String URL_PRODUCTS = "https://raushankumar8338.000webhostapp.com/store/Images/Api.php";
+    private static final String URL_PRODUCTS = "http://www.amplesoftech.co.in/app/Images/Api.php";
     List<ImageProduct> image;
     RecyclerView recyclerView;
     AsyncHttpClient asyncHttpClient = new AsyncHttpClient();
@@ -100,7 +100,7 @@ public class Image extends Fragment {
 
                                 image.add(new ImageProduct(
                                         imageproduct.getInt("id"),
-                                        imageproduct.getString("date"),
+                                       // imageproduct.getString("date"),
                                         imageproduct.getString("message"),
                                         imageproduct.getString("image")
                                 ));

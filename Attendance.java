@@ -35,7 +35,7 @@ import cn.pedant.SweetAlert.SweetAlertDialog;
 import cz.msebera.android.httpclient.Header;
 
 public class Attendance extends Fragment {
-    private static final String url_product="https://raushankumar8338.000webhostapp.com/store/Attendance/AttendanceApi.php";
+    private static final String url_product="http://www.amplesoftech.co.in/app/Attendance/AttendanceApi.php";
     List<AttendanceProduct>attendance;
     AsyncHttpClient asyncHttpClient=new AsyncHttpClient();
     RecyclerView recyclerView;

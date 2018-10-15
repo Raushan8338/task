@@ -34,7 +34,7 @@ import cz.msebera.android.httpclient.Header;
 
 
 public class Announcements extends Fragment {
-    private static final String URL_PRODUCTS = "https://raushankumar8338.000webhostapp.com/store/Announcement/Api.php";
+    private static final String URL_PRODUCTS = "http://www.amplesoftech.co.in/app/Announcement/Api.php";
     List<AnnouncementsProduct> announcements;
 
     RecyclerView recyclerView;

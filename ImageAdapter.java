@@ -1,5 +1,6 @@
 package com.ample.ample.nps.Fragment;
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -8,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.ample.ample.nps.Actvity.Fullimage;
 import com.ample.ample.nps.R;
 import com.bumptech.glide.Glide;
 
@@ -42,14 +44,15 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ProductViewH
                 .load(imageProduct.getImage())
                 .into(holder.imageView);
 
-        holder.textViewTitle.setText(imageProduct.getdate());
+        //holder.textViewTitle.setText(imageProduct.getdate());
         holder.textViewmessage.setText(imageProduct.getmessage());
+       // holder.imageView.setImageResource();
         holder.cardview.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                /*Intent intent=new Intent(mCtx, Fullimage.class);
-                intent.putExtra("image",imageProduct.getmessage());
-                mCtx.startActivity(intent);*/
+                Intent intent=new Intent(mCtx, Fullimage.class);
+                intent.putExtra("image",imageProduct.getImage());
+                mCtx.startActivity(intent);
             }
         });
     }
