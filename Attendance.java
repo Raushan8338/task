@@ -29,7 +29,7 @@ import cn.pedant.SweetAlert.SweetAlertDialog;
 import cz.msebera.android.httpclient.Header;
 
 public class Attendance extends Fragment {
-    private static final String URL_PRODUCTS = "http://www.amplesoftech.co.in/app/Attendance/Api2.php";
+    private static final String URL_PRODUCTS = "your api service";
     List<AttendanceProduct> attendance;
     AsyncHttpClient asyncHttpClient = new AsyncHttpClient();
     RecyclerView recyclerView;

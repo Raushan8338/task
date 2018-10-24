@@ -29,7 +29,7 @@ import cz.msebera.android.httpclient.Header;
 
 
 public class Pay extends Fragment {
-    private static final String URL_PRODUCTS="http://www.amplesoftech.co.in/app/Announcement/Api2.php";
+    private static final String URL_PRODUCTS="your api service";
    List<PayProduct> pay;
     AsyncHttpClient asyncHttpClient = new AsyncHttpClient();
     RecyclerView recyclerView;

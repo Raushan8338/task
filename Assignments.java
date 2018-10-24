@@ -29,7 +29,7 @@ import cn.pedant.SweetAlert.SweetAlertDialog;
 import cz.msebera.android.httpclient.Header;
 
 public class Assignments extends Fragment {
-    private static final String URL_PRODUCTS = "http://www.amplesoftech.co.in/app/Assignments/Api.php";
+    private static final String URL_PRODUCTS = "your api service";
     List<AssignmentsProduct> assignments;
     AsyncHttpClient asyncHttpClient = new AsyncHttpClient();
     RecyclerView recyclerView;

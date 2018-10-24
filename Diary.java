@@ -17,7 +17,7 @@ import cn.pedant.SweetAlert.SweetAlertDialog;
 import cz.msebera.android.httpclient.Header;
 
 public class Diary extends Fragment {
-    private static final String URL_PRODUCTS = "https://raushankumar8338.000webhostapp.com/Api/Api.php";
+    private static final String URL_PRODUCTS = "your api service";
 
     AsyncHttpClient asyncHttpClient = new AsyncHttpClient();
     @Override

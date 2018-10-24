@@ -30,7 +30,7 @@ import cn.pedant.SweetAlert.SweetAlertDialog;
 import cz.msebera.android.httpclient.Header;
 
 public class Image extends Fragment {
-    private static final String URL_PRODUCTS = "http://www.amplesoftech.co.in/app/Images/Api2.php";
+    private static final String URL_PRODUCTS = "your api service";
     List<ImageProduct> image;
     AsyncHttpClient asyncHttpClient = new AsyncHttpClient();
     RecyclerView recyclerView;
