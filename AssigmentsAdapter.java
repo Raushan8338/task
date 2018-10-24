@@ -40,7 +40,6 @@ public class AssigmentsAdapter extends RecyclerView.Adapter<AssigmentsAdapter.Pr
         final AssignmentsProduct assigmentsAdapter=assignements.get(position);
         holder.textViewlanguage.setText(assigmentsAdapter.getlanguage());
         holder.textViewdate.setText(assigmentsAdapter.getdate());
-
         holder.textViewmessage.setText(assigmentsAdapter.getmessage());
         holder.cardView.setOnClickListener(new View.OnClickListener() {
             @Override
